@@ -372,17 +372,6 @@ st.write('''
          </div>
 ''', unsafe_allow_html=True)
 
-
-
-
-
-
-
-
-
-
-
-
 st.write('''
 <style>
     .text-justify {
