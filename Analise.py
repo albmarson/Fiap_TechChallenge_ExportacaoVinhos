@@ -276,7 +276,7 @@ st.write('''
 ''', unsafe_allow_html=True)
 
 # Gráfico 8: Quantidade x Valor
-caminho_imagem = "graficos/Quantidade_Valor.png"
+caminho_imagem = "graficos/quantidade_valor.png"
 imagem_grafico = open(caminho_imagem, "rb").read()
 st.image(imagem_grafico, caption="Exportaçãoe e Valorização - Tendência Crescente", use_column_width=True)
 
