@@ -212,7 +212,7 @@ st.write('''
 ''', unsafe_allow_html=True)
 
 # Gráfico 4: PIB do Paraguai
-caminho_imagem = "graficos/PIB_Paraguai.png"
+caminho_imagem = "graficos/Pib_Paraguai.png"
 imagem_grafico = open(caminho_imagem, "rb").read()
 st.image(imagem_grafico, caption="PIB do Paraguai - Dados: https://paises.ibge.gov.br/#/dados/paraguai", use_column_width=True)
 
