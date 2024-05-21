@@ -326,7 +326,7 @@ st.write('''
 ''', unsafe_allow_html=True)
 
 # Gráfico 9: Continente
-caminho_imagem = "graficos/Continente.png"
+caminho_imagem = "graficos/continente.png"
 imagem_grafico = open(caminho_imagem, "rb").read()
 st.image(imagem_grafico, caption="Exportação por Continente", use_column_width=True)
 
