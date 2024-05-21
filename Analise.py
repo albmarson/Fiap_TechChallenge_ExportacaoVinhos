@@ -146,7 +146,7 @@ st.write('''
 ''', unsafe_allow_html=True)
 
 # Gráfico 1: Evolução dos Valores de Litros Exportados ao longo do tempo 
-caminho_imagem = "C:/Users/amarson/Desktop/Alberto Marson/TechChallenge_AlbertoMarson_RM_354883/graficos/timeline_15_anos_valores_litros_exportados.png"
+caminho_imagem = "graficos/timeline_15_anos_valores_litros_exportados.png"
 imagem_grafico = open(caminho_imagem, "rb").read()
 st.image(imagem_grafico, caption="Evolução dos Valores de Litros Exportados ao longo do tempo ", use_column_width=True)
 
@@ -163,7 +163,7 @@ st.write('''
 ''', unsafe_allow_html=True)
 
 # Gráfico 2: Países com maior receita de exportação de vinhos
-caminho_imagem = "C:/Users/amarson/Desktop/Alberto Marson/TechChallenge_AlbertoMarson_RM_354883/graficos/paises_com_maior_exportacao_vinhos.png"
+caminho_imagem = "graficos/paises_com_maior_exportacao_vinhos.png"
 imagem_grafico = open(caminho_imagem, "rb").read()
 st.image(imagem_grafico, caption="Países com Maior Exportação de Vinhos", use_column_width=True)
 
@@ -180,7 +180,7 @@ st.write('''
 ''', unsafe_allow_html=True)
 
 # Gráfico 3: Ascensão do Paraguai
-caminho_imagem = "C:/Users/amarson/Desktop/Alberto Marson/TechChallenge_AlbertoMarson_RM_354883/graficos/Ascensao_Paraguai.png"
+caminho_imagem = "graficos/Ascensao_Paraguai.png"
 imagem_grafico = open(caminho_imagem, "rb").read()
 st.image(imagem_grafico, caption="Ascensão do Paraguai", use_column_width=True)
 
@@ -212,7 +212,7 @@ st.write('''
 ''', unsafe_allow_html=True)
 
 # Gráfico 4: PIB do Paraguai
-caminho_imagem = "C:/Users/amarson/Desktop/Alberto Marson/TechChallenge_AlbertoMarson_RM_354883/graficos/PIB_Paraguai.png"
+caminho_imagem = "graficos/PIB_Paraguai.png"
 imagem_grafico = open(caminho_imagem, "rb").read()
 st.image(imagem_grafico, caption="PIB do Paraguai - Dados: https://paises.ibge.gov.br/#/dados/paraguai", use_column_width=True)
 
@@ -229,17 +229,17 @@ st.write('''
 ''', unsafe_allow_html=True)
 
 # Gráfico 5: Perspectiva dos 10 maiores
-caminho_imagem = "C:/Users/amarson/Desktop/Alberto Marson/TechChallenge_AlbertoMarson_RM_354883/graficos/10_maiores_perspectiva.png"
+caminho_imagem = "graficos/10_maiores_perspectiva.png"
 imagem_grafico = open(caminho_imagem, "rb").read()
 st.image(imagem_grafico, caption="Top 10 maiores", use_column_width=True)
 
 # Gráfico 6: Receita Exportação Russia
-caminho_imagem = "C:/Users/amarson/Desktop/Alberto Marson/TechChallenge_AlbertoMarson_RM_354883/graficos/receita_exportacao_russia.png"
+caminho_imagem = "graficos/receita_exportacao_russia.png"
 imagem_grafico = open(caminho_imagem, "rb").read()
 st.image(imagem_grafico, caption="Receita Exportação Russia", use_column_width=True)
 
 # Gráfico 7: Quantidade Exportação Russia
-caminho_imagem = "C:/Users/amarson/Desktop/Alberto Marson/TechChallenge_AlbertoMarson_RM_354883/graficos/Quantidade_Exportada_Russia.png"
+caminho_imagem = "graficos/Quantidade_Exportada_Russia.png"
 imagem_grafico = open(caminho_imagem, "rb").read()
 st.image(imagem_grafico, caption="Quantidade Exportação Russia", use_column_width=True)
 
@@ -276,7 +276,7 @@ st.write('''
 ''', unsafe_allow_html=True)
 
 # Gráfico 8: Quantidade x Valor
-caminho_imagem = "C:/Users/amarson/Desktop/Alberto Marson/TechChallenge_AlbertoMarson_RM_354883/graficos/Quantidade_Valor.png"
+caminho_imagem = "graficos/Quantidade_Valor.png"
 imagem_grafico = open(caminho_imagem, "rb").read()
 st.image(imagem_grafico, caption="Exportaçãoe e Valorização - Tendência Crescente", use_column_width=True)
 
@@ -326,7 +326,7 @@ st.write('''
 ''', unsafe_allow_html=True)
 
 # Gráfico 9: Continente
-caminho_imagem = "C:/Users/amarson/Desktop/Alberto Marson/TechChallenge_AlbertoMarson_RM_354883/graficos/Continente.png"
+caminho_imagem = "graficos/Continente.png"
 imagem_grafico = open(caminho_imagem, "rb").read()
 st.image(imagem_grafico, caption="Exportação por Continente", use_column_width=True)
 
@@ -339,7 +339,7 @@ st.write('''
 
 <div class="text-justify">
     <h4>Conclusão</h4>
-    <p>A análise aprofundada das exportações brasileiras de vinho revela insights valiosos sobre o desempenho do mercado e as oportunidades de investimento na indústria vitivinícola. Ao examinarmos os dados fornecidos pela Embrapa - <i> Empresa Brasileira de Pesquisa Agropecuária </i>, fica evidente que o Paraguai emerge como um dos principais protagonistas no cenário das exportações de vinho de mesa. Com uma média de US$ 1.34 por litro, o Paraguai demonstra uma alta rentabilidade em suas exportações, tornando-se um ponto focal para investidores interessados em retornos sólidos e consistentes.
+    <p>A análise aprofundada das exportações brasileiras de vinho revela insights valiosos sobre o desempenho do mercado e as oportunidades de investimento na indústria vitivinícola. Ao examinarmos os dados fornecidos pela Embrapa - <i> Empresa Brasileira de Pesquisa Agropecuária , fica evidente que o Paraguai emerge como um dos principais protagonistas no cenário das exportações de vinho de mesa. Com uma média de US$ 1.34 por litro, o Paraguai demonstra uma alta rentabilidade em suas exportações, tornando-se um ponto focal para investidores interessados em retornos sólidos e consistentes.
     <p>No entanto, embora o Paraguai se destaque como líder em termos de rentabilidade, é importante reconhecer a influência contínua da Europa no mercado vinícola global. A Europa não só lidera em termos de quantidade total de litros exportados, mas também continua sendo um dos destinos mais desejados para turistas em todo o mundo. Essa preferência por destinos europeus pode influenciar indiretamente o mercado vinícola, criando uma demanda sustentada por vinhos europeus em mercados internacionais.
     <p>Portanto, ao considerar investimentos no mercado vinícola, é essencial avaliar cuidadosamente as oportunidades oferecidas tanto pela América do Sul, com destaque para o Paraguai, quanto pela Europa. Enquanto o Paraguai oferece uma rentabilidade sólida e um potencial de crescimento significativo, a Europa continua sendo um mercado crucial devido à sua influência e reputação estabelecida na indústria vinícola.
     <p>Além disso, é importante destacar que a análise dos dados revela uma tendência crescente de valorização do vinho nas exportações ao longo do tempo. Essa mudança de paradigma sugere uma evolução positiva no mercado de exportação de vinho, onde os produtores estão agregando mais valor aos seus produtos, em vez de simplesmente focar na maximização da quantidade exportada. Essa abordagem pode resultar em retornos financeiros mais sólidos e sustentáveis a longo prazo, contribuindo para a valorização da marca e do produto no cenário internacional.
