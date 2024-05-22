@@ -7,3 +7,5 @@ Este repositório contém os arquivos e códigos do estudo proposto pela FIAP co
 O projeto está hospedado no Streamlit, sendo possível acessá-lo através do seguinte link: [Tech Challenge Exportação de Vinhos - Streamlit | Alberto Marson](https://fiaptechchallengeexportacaovinhos-alberto-marson.streamlit.app/)
 
 O script presente no Streamlit pode ser consultado e analisado no arquivo: `Analise.py`. Já os códigos, em Jupyter/Python, estão disponíveis no arquivo: `Script_final.py`, que contém toda a parte de tratamento, análise e desenvolvimento dos dados.
+
+Por não ter conhecimento da ferramenta Streamlit antes de ingressar na pós-graduação, optei por utilizá-la para apresentar os dados e aproveitei para aprender mais sobre ela.
