@@ -317,6 +317,12 @@ df_segundatabela = pd.read_csv('media_taxa_dolar.csv', sep=';', dtype={'Ano': in
 
 st.dataframe(df_segundatabela)
 
+st.markdown("""
+<div style="font-size: 13px; text-align: right; max-width: 490px; margin-left: auto; display: block;">
+    Tabela 2: Rentabilidade por País<br><br>
+</div>
+""", unsafe_allow_html=True)  
+
 st.write('''
 <style>
     .text-justify {
