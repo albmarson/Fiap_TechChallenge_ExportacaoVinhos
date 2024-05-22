@@ -11,6 +11,12 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
+# Vinhos 
+caminho_imagem = "Vinhos.png"
+imagem = open(caminho_imagem, "rb").read()
+st.image(imagem, caption="", use_column_width=True)
+
+
 st.write('''
 <div style="display: flex; justify-content: center; align-items: center; margin: 0 auto;">
     <div style="border-left: 1px solid white; height: 100%; padding-left: 20px; text-align: justify;">
@@ -381,6 +387,11 @@ st.write('''
 
 <div class="text-justify">
     <h4>Referências Bibliográficas</h4>
+    <p> Embrapa Uva e Vinho. (s.d.). Banco de dados de uva, vinho e derivados. Recuperado em 23 de março de 2024, de http://vitibrasil.cnpuv.embrapa.br/index.php?opcao=opt_01
+    <p> Instituto Brasileiro de Geografia e Estatística (IBGE). (s.d.). Produto Interno Bruto (PIB). Disponível em: https://www.ibge.gov.br/explica/pib.php#:~:text=Todos%20os%20pa%C3%ADses%20calculam%20o,%24%202%20831%2C3%20bilh%C3%B5es. Acesso em: 23 de março de 2024.          
+    <p> Instituto Brasileiro de Geografia e Estatística (IBGE). (s.d.). IBGE Países. Disponível em: https://paises.ibge.gov.br/#/. Acesso em: 23 de março de 2024.
+    <p> Fundação Alexandre de Gusmão (FUNAG). (s.d.). As 15 maiores economias do mundo. Disponível em: https://www.gov.br/funag/pt-br/ipri/publicacoes/estatisticas/as-15-maiores-economias-do-mundo. Acesso em: 23 de março de 2024.
+    <p> dados.gov.br. (s.d.). Conjuntos de Dados. Disponível em: https://dados.gov.br/dados/conjuntos-dados. Acesso em: 23 de março de 2024.
     <p> EXAME. (2024, 1 de abril). Apesar da ressaca no mercado de vinhos, o interesse por novidades traz oportunidades para o setor. Disponível em: https://exame.com/casual/apesar-da-ressaca-no-mercado-de-vinhos-o-interesse-por-novidades-traz-oportunidades-para-o-setor/. Acesso em: 1 de maio de 2024.</p>
     <p> EXAME. (2024, 10 de abril). As expectativas para o mercado de vinhos para 2024. Disponível em: https://exame.com/casual/as-expectativas-para-o-mercado-de-vinhos-para-2024/. Acesso em: 1 de maio de 2024.</p>
     <p> Elite Vinho. (s.d.). Diversificação de produtos impulsiona o mercado de vinhos. Recuperado de https://elitevinho.com.br/blog/diversificacao-de-produtos-impulsiona-o-mercadodevinhos/</p>
